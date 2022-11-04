@@ -1,0 +1,78 @@
+/* ------------------------------
+ # GOOGLE FONTS
+    ------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/* ------------------------------
+ # RESET
+    ------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  transition: all .4s;
+  padding: 14px 20px;
+  border-radius: 5px;
+  background-color: rgb(189, 187, 192);
+  letter-spacing: 1px;
+  margin-top: 3rem;
+}
+
+button:hover {
+  background-color: rgb(169, 167, 172);
+
+}
+
+span {
+  font-weight: 700;
+}
+
+ul {
+  padding-left: 20px;
+  margin-top: 1rem;
+}
+
+ul li {
+  margin-top: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+body {
+  background-color: #efefef;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/* ------------------------------
+ # CONTAINER
+    ------------------------------- */
+.container {
+  width: 30%;
+  height: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.303);
+}
+
+
+/* ------------------------------
+ # DATES
+    ------------------------------- */
+.title__dates p {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}

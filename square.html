@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- ===== CSS =====  -->
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <!-- --- STYLE  --- -->
+    <style>
+        .date {
+            margin-top: 3rem;
+        }
+
+        input {
+            margin-top: 1rem;
+            border-radius: 10px;
+            background-color: transparent;
+            padding: 10px;
+        }
+
+        p {
+            margin-top: 2rem;
+        }
+    </style>
+
+    <!-- =====  CONTAINER =====  -->
+    <div class="container" id="container">
+        <!-- --- TITLE --- -->
+        <div class="title">
+            <h1>¡Vamos a calcular el área de una figura!</h1>
+        </div>
+        <!-- --- FORM --- -->
+        <div class="date">
+            <label for="">Ingrese la medida del lado:</label><br>
+            <input type="number" name="" id="side"><br>
+            <button onclick="calculate();">Calcular</button>
+            <a href="./index.html"><button>Regresar</button></a>
+            <p>El área del cuadrado es: <span id="result"> </span> m2</p>
+        </div>
+    </div>
+    <!-- =====  CONTAINER END =====  -->
+
+
+    <!-- =====  SCRIPTS =====  -->
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
